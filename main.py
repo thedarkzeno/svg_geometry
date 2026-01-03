@@ -48,7 +48,8 @@ sample = export_sample(
     goal=goal,
     steps=proof,
     solution_svgs=solution_svgs,
-    aux_removed=aux_removed
+    aux_removed=aux_removed,
+    env_problem=env
 )
 
 print(sample)
